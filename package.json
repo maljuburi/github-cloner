@@ -1,0 +1,22 @@
+{
+  "name": "github-cloner",
+  "version": "1.0.0",
+  "description": "Github Cloner CLI",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^16.28.7",
+    "clui": "^0.3.6",
+    "colors": "^1.3.3",
+    "commander": "^3.0.0",
+    "configstore": "^5.0.0",
+    "inquirer": "^6.5.1"
+  }
+}
